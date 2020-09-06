@@ -1,8 +1,8 @@
 <template>
     <div class="row"> 
- <div class="thumbnail text-center" > 
-  <img :src="require('./niños2.jpg')" alt="" class="img-fluid" style="opacity: 0.2; height: 50rem;"> 
- <div class="caption"> 
+ 		<div class="thumbnail text-center" > 
+  		<img :src="require('./niños2.jpg')" alt="" class="img-fluid" style="opacity: 0.2; height: 50rem;"> 
+ 		<div class="caption"> 
              <div style="width:100%;position:absolute;top: 4px;left:0;">
             <div class="d-flex justify-space-around">
                 <!--Atrás-->
@@ -14,7 +14,7 @@
                 </div>
                 <!--HOME-->
                 <div class="col-lg-6 col-md-4 col-sm-2">
-                    <a href="../../home.html">
+                    <a href="../home.html">
                         <span><img class="img-fluid" src="./house_internet.png" alt="logo" style="max-height: 1.5rem;">Inicio</span>
                     </a>
                 
@@ -62,7 +62,8 @@
 
                     <!--FORMULARIO-->
                     <div >
-                            <div class="d-flex justify-content-center mt-4">
+                            <form action="">
+                                <div class="d-flex justify-content-center mt-4">
                                  <input style="font-size: 2rem; width: 18rem;" type="text" class="form-control" placeholder="Usuario" aria-label="Username">
                             </div>
    
@@ -71,6 +72,7 @@
                                  <!--<input type="password" class="form-control" placeholder="Username" aria-label="Username"> -->
                                  <input   style="font-size: 2rem;width: 18rem;" type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
                             </div>
+                            </form>
                         <div class="row">
                             
                             <div class="col-lg-4"></div>
@@ -89,6 +91,7 @@
                 
             </div>   
         </div>
+    
  </div> 
 
  </div> 
@@ -97,7 +100,7 @@
 
 <script>
 export default {
-
+    
 }
 </script>
 

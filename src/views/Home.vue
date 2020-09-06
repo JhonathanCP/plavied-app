@@ -70,32 +70,30 @@
       <div class="w-100">
         <img class="foto w-100"
           src="https://www.notiactual.com/wp-content/uploads/2016/11/ni%C3%B1os-crianza-750x400.jpg" alt="niños"
-          style="height:400px;">
+          style="height:400px; filter: brightness(30%);">
       </div>
       <div style="width:100%;position:absolute; top:0;left:0">
-        <div style="text-align: center; width:100%;padding-top:40px;">
-          <p style="font-size: 5em;color: #FFFFFF;">Contáctanos</p>
-          <div class="row" style="margin: 0 auto;">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4 rounded">
-              <div class="row">
-                <div class="col-lg-4">
-                  <i style="font-size: 100px;color: #FFFFFF;" class="fa fa-mobile"></i>&nbsp;
+        <div style="text-align: center; width:100%; padding-top:40px;">
+          <p style="font-size: 4rem; color: #FFFFFF;" >Contáctanos</p>
+          <div style="margin: 0 auto;">
+            <div>
+              <div class="d-flex justify-content-center">
+                <div>
+                  <b-icon icon="phone" font-scale="4" variant="light"></b-icon>;
                 </div>
-                <div class="col-lg-4" style="padding-top:20px;">
+                <div style="padding-top:20px;">
                   <p style="font-size: 30px; color: #FFFFFF;">934465838</p>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-4">
-                  <i style="font-size: 60px;color: #FFFFFF;" class="fa fa-envelope"></i>&nbsp;
+              <div class="d-flex justify-content-center">
+                <div>
+                  <b-icon icon="envelope" font-scale="4" variant="light"></b-icon>;
                 </div>
-                <div class="col-lg-4" style="padding-top:20px;">
+                <div style="padding-top:20px;">
                   <p style="font-size: 30px; color: #FFFFFF;">plaviedsoporte@gmail.com</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4"></div>
           </div>
           <div>
           </div>
