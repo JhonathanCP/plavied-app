@@ -1,0 +1,459 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 57833,
+      "max": [
+        0.99786067008972168,
+        0.99993842840194702,
+        0.9978606104850769
+      ],
+      "min": [
+        -0.99786096811294556,
+        -0.99993842840194702,
+        -0.99786108732223511
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 693996,
+      "componentType": 5126,
+      "count": 57833,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 57833,
+      "max": [
+        0.99999755620956421,
+        0.083121225237846375,
+        0.99999761581420898,
+        1
+      ],
+      "min": [
+        -0.99999755620956421,
+        -0.089479200541973114,
+        -0.99999850988388062,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 57833,
+      "max": [
+        1.0033913850784302,
+        1.0210875272750854
+      ],
+      "min": [
+        0.0011286400258541107,
+        -0.0070676207542419434
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 462664,
+      "componentType": 5126,
+      "count": 57833,
+      "max": [
+        1.0033913850784302,
+        1.0210875272750854
+      ],
+      "min": [
+        0.0011286400258541107,
+        -0.0070676207542419434
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 342720,
+      "max": [
+        57832
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1750,
+      "max": [
+        58.349998474121094
+      ],
+      "min": [
+        0.041666667908430099
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1750,
+      "max": [
+        8.3590564747978801e-17,
+        1,
+        8.3590564747978801e-17,
+        0.99999934434890747
+      ],
+      "min": [
+        -8.6595599416820643e-17,
+        -0.86588823795318604,
+        -8.6595599416820643e-17,
+        -0.49790725111961365
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 5,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 6,
+          "interpolation": "LINEAR",
+          "output": 7
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Sie001 (https://sketchfab.com/Sie001)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/earth-animation-v002-709abd84d2ed474b8a3e0493d330272b",
+      "title": "Earth Animation V0.02"
+    },
+    "generator": "Sketchfab-7.29.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1370880,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 925328,
+      "byteOffset": 1370880,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1387992,
+      "byteOffset": 2296208,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 925328,
+      "byteOffset": 3684200,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7000,
+      "byteOffset": 4609528,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28000,
+      "byteOffset": 4616528,
+      "byteStride": 16,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4644528,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/blinn3_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "blinn3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Earth1_blinn3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "fd9019086aa54395ac77043f118ca17e.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": ""
+    },
+    {
+      "children": [
+        5,
+        7,
+        10
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Earth1",
+      "rotation": [
+        5.7222051905593107e-17,
+        0.99798333644866943,
+        5.7222051905593107e-17,
+        0.063476338982582092
+      ],
+      "scale": [
+        3.607396125793457,
+        3.607396125793457,
+        3.607396125793457
+      ],
+      "translation": [
+        0,
+        5.2110285758972168,
+        0
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Earth1_blinn3_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "directionalLight1",
+      "rotation": [
+        0.36684384942054749,
+        -0.62568885087966919,
+        0.42196986079216003,
+        0.54394912719726562
+      ],
+      "scale": [
+        2.5143246650695801,
+        2.5143246650695801,
+        2.6045174598693848
+      ],
+      "translation": [
+        -5.0309996604919434,
+        7.3723607063293457,
+        -1.2398887872695923
+      ]
+    },
+    {
+      "children": [
+        9
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "children": [
+        11
+      ],
+      "name": "directionalLight2",
+      "rotation": [
+        0.5401008129119873,
+        0.45638921856880188,
+        -0.45638921856880188,
+        0.5401008129119873
+      ],
+      "translation": [
+        5.1859316825866699,
+        4.4361581802368164,
+        -0.13728196918964386
+      ]
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.2204460492503131e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.2204460492503131e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+

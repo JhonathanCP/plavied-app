@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Loginalumno from '../views/Loginalumno.vue'
 import Perfilalumno from '../views/Perfilalumno.vue'
+import Demos from '../views/Demos.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ Vue.use(VueRouter)
     path: '/perfilalumno',
     name: 'Perfilalumno',
     component: Perfilalumno
+  },
+  {
+    path: '/demos',
+    name: 'Demos',
+    component: Demos
   },
 ]
 

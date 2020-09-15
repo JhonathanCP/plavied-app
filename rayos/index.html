@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-plane color="peru" position="0 0 -4" width="4" height="4" rotation="-90 0 0"></a-plane>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="pink"></a-box>
+        <a-cylinder color="#FFC65D" position="1 0.75 -3" radius="0.5" height="1.5"></a-cylinder>
+        <a-sphere 
+            color="#EF2D5E" 
+            radius="1.25" 
+            position="0 1.25 -5"
+        ></a-sphere>
+        <a-sky color="#ECECEC"></a-sky>
+        <a-entity camara position="0 1.6 0" look-controls wasd-controls>
+            <!-- El a-cursor emula el efecto de raycasting y mostrarnos el indicador visual en la pantalla -->
+            <a-cursor></a-cursor>
+        </a-entity>
+    </a-scene>
+    <!-- Para interactuar con los eventos que expone le cursor -->
+    <script>
+        // con querySelector es la manera de traer los elementos de javaScript
+        const box = document.querySelector("a-box");
+        box.addEventListener("mouseenter",function() {
+            box.setAttribute("color","red")
+        });
+        box.addEventListener("mouseleave",function() {
+            box.setAttribute("color","pink")
+        })
+    </script>
+</body>
+</html>

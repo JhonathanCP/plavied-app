@@ -1,7 +1,7 @@
 <template>
     <div class="row"> 
  		<div class="thumbnail text-center" > 
-  		<img :src="require('./niños2.jpg')" alt="" class="img-fluid" style="opacity: 0.2; height: 50rem;"> 
+  		<img :src="require('./niños2.jpg')" alt="" class="img-fluid" style="opacity: 0.2; height: 60rem;"> 
  		<div class="caption"> 
              <div style="width:100%;position:absolute;top: 4px;left:0;">
             <div class="d-flex justify-space-around">
@@ -69,7 +69,7 @@
    
 
                             <div class="d-flex justify-content-center mt-4">
-                                 <!--<input type="password" class="form-control" placeholder="Username" aria-label="Username"> -->
+                                
                                  <input   style="font-size: 2rem;width: 18rem;" type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
                             </div>
                             </form>
@@ -78,7 +78,7 @@
                             <div class="col-lg-4"></div>
 
                             <div class="col-lg-4" style="padding-top: 30px;">
-                                <button style="width: 50%; height: 4rem; font-size: 18px;" type="button" class="btn btn-outline-primary">Iniciar sesión</button>
+                                <router-link to="/perfilalumno"><button style="width: 50%; height: 4rem; font-size: 18px;" type="button" class="btn btn-outline-primary">Iniciar sesión</button></router-link>                                
                                 <div style="margin-top: 15px;">
                                 <h4><a href="#">¿Problemas para ingresar?</a></h4>
                                 </div>
